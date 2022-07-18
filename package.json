@@ -24,9 +24,12 @@
   "lint-staged": {
     "src/**/*.{js,json,scss}": "prettier --tab-width 4 --single-quote --trailing-comma all --write"
   },
+  
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"}},
+      "pre-commit": "lint-staged"
+    }
+  },
 
   "homepage": "https://github.com/Tommy2212/blog#readme",
   "dependencies": {
